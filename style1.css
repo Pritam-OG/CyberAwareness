@@ -1,67 +1,85 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-/* .body{
-    margin: 25px 25px;
-} */
-header {
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.logo {
+  text-decoration: none;
+  color: white;
+  font-size: 3vh;
+}
+nav {
+  padding: 10px 30px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   background-color: blue;
-  color: white;
+  position: relative;
+  height: 70px;
 }
-main {
-  padding: 25px 60px;
-  background-color: rgb(207, 207, 231);
+nav ul {
+  display: flex;
+  gap: 30px;
 }
-footer {
-  padding: 25px 60px;
-  background-color: rgb(207, 207, 231);
+nav ul li {
+  list-style-type: none;
 }
-.h1 {
-  margin-left: 10px;
+nav ul li a {
   text-decoration: none;
-  padding-top: 25px;
+  color: white;
   font-size: 25px;
-  font-family: default;
-  font-weight: 700;
-  padding-bottom: 25px;
-  /* padding-right: 1188px; */
-  color: white;
 }
-.navs {
-  text-decoration: none;
-  color: white;
-  margin-right: 10px;
-}
-.navs:hover {
-  border-bottom: 1px solid white;
-}
-.menuIcon {
+.menubar {
   display: none;
 }
+#menuIcon {
+  display: none;
+}
+#menuIcon {
+  height: 30px;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid white;
+}
+main {
+  background-color: rgb(201, 201, 229);
+  padding: 20px 20px;
+}
+footer {
+  background-color: rgb(201, 201, 229);
+  padding: 20px 20px;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.source-code-pro-1a {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+}
 .typAnim1 {
-  width: 18ch;
-  font-size: 15px;
-  font-family: default;
+  margin: 50px 0px;
+  font-size: 5vh;
+  width: 22ch;
   animation: typing 2s steps(21), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 2px solid;
+  border-right: 15px solid;
 }
 @keyframes typing {
   from {
-    width: 0;
+    width: 0px;
   }
 }
 @keyframes blink {
   50% {
     border-color: transparent;
   }
-}
-footer {
-  padding-top: 25px;
 }

@@ -3,7 +3,55 @@
     display: block;
     margin-right: 10px;
   }
-  .navs {
+  .typAnim1 {
+  }
+  /* .navs {
     display: none;
+  } */
+  .navlinks {
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    background-color: blue;
+    left: -100%;
+    top: 100%;
+    width: 100%;
+    padding: 10px 10px;
+    transition: 0.2s ease-out;
+  }
+  .navlinks.active1 {
+    left: 0;
+    @keyframes SlideToRight1 {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
+    .typAnim1 {
+      display: none;
+    }
+  }
+  .menubar {
+    display: block;
+  }
+  #menuIcon {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 479px) {
+  .typAnim1 {
+    border: none;
+    text-wrap: wrap;
+  }
+  @keyframes typing {
+    from {
+      right: 100%;
+    }
   }
 }
