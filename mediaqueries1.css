@@ -3,8 +3,9 @@
     display: block;
     margin-right: 10px;
   }
-  .typAnim1 {
-  }
+
+  .typAnim1 {}
+
   /* .navs {
     display: none;
   } */
@@ -12,46 +13,43 @@
     position: absolute;
     align-items: center;
     flex-direction: column;
-    background-color: blue;
+    background-color: rgb(16, 26, 98);
     left: -100%;
     top: 100%;
     width: 100%;
     padding: 10px 10px;
     transition: 0.2s ease-out;
   }
+
   .navlinks.active1 {
     left: 0;
-    @keyframes SlideToRight1 {
-      from {
-        transform: translateX(0);
-      }
-      to {
-        transform: translateX(0);
-      }
-    }
-    .typAnim1 {
-      display: none;
-    }
   }
+
   .menubar {
     display: block;
   }
+
   #menuIcon {
     display: block;
   }
 }
 
-@media screen and (max-width: 767px) {
-}
+@media screen and (max-width: 767px) {}
 
 @media screen and (max-width: 479px) {
   .typAnim1 {
     border: none;
     text-wrap: wrap;
   }
+
   @keyframes typing {
     from {
       right: 100%;
     }
   }
+
+  .flex {
+    gap: 50%;
+  }
+
 }
