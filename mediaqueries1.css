@@ -39,7 +39,7 @@
 @media screen and (max-width: 479px) {
   .typAnim1 {
     border: none;
-    text-wrap: wrap;
+    margin: 0;
   }
 
   @keyframes typing {
@@ -50,6 +50,7 @@
 
   .flex {
     gap: 50%;
+    flex-direction: column;
   }
 
 }
