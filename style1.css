@@ -9,7 +9,7 @@
   padding-left: 10px;
   background-color: #20204a;
   color: #e3d5d5;
-  margin: 2em 3.5em;
+  margin: 2em 2.7em;
   font-size: 5vh;
   width: 22ch;
   animation: typing 2s steps(21), blink 0.5s step-end infinite alternate;
@@ -31,19 +31,28 @@
   }
 }
 
-.intro {
-  /* margin-top: 100px; */
+.intro .row1 {
+  align-items: center;
 }
 
 .desc1 {
-  font-size: 30px;
+  font-family: cursive;
+  font-size: 3.5vh;
   max-width: 1000px;
+}
+
+.intro .row1 .col1 {
+  width: 40%;
+}
+
+.intro .row1 .col2 {
+  width: 40%;
 }
 
 .col2 img {
   width: 100%;
   border-radius: 300px;
-  max-width: 300px;
+  max-width: 500px;
 }
 
 .line {
@@ -54,16 +63,13 @@
   text-align: center;
 }
 
-.row1 {
-  margin-top: 100px;
-}
-
 .cyth1 {
   margin-top: 300px;
 }
 
 .cyth1 .row1 {
   margin-top: 200px;
+  align-items: center;
 }
 
 .cyth1 .row1 .col1 {
@@ -100,7 +106,11 @@
 }
 
 .cyth2 {
-  margin-top: 300px;
+  margin-top: 100px;
+}
+
+.cyth2 .row1 {
+  align-items: center;
 }
 
 .cyth2 .row1 .col1 {
@@ -139,4 +149,25 @@
   color: #33334e;
   cursor: pointer;
 
+}
+
+.cstds {
+  margin-top: 300px;
+}
+
+.cstds .row1 {
+  margin-top: 200px;
+}
+
+.cstds .row1 .col1 {
+  width: 40%;
+}
+
+.cstds .row1 .col2 {
+  width: 40%;
+}
+
+.h3 {
+  margin: 0 255px;
+  margin-bottom: 50px;
 }
