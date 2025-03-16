@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="This is a project for Tech Storm 2.25. Our team (Web Wizards) is working on this project. This website is under construction as of now." />
+    content="This is a project for Tech Storm 2.25. Our team (Web Wizards) is working on this project. This website is under construction as of now.">
   <meta name="keywords"
-    content="cyberawareness, cybersecurity, cyber, cyberfraud, onlinefraud, collegeproject, project" />
+    content="cyberawareness, cybersecurity, cyber, cyberfraud, onlinefraud, collegeproject, project">
   <title>Cyber Awareness | Resources</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon7a/apple-touch-icon.png">
@@ -15,16 +15,18 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon7a/favicon-16x16.png">
   <link rel="manifest" href="/favicon7a/site.webmanifest">
 
-  <link rel="stylesheet" href="/style1.css" />
-  <link rel="stylesheet" href="mediaqueries1.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="/stylesheets/mainStyle.css">
+  <link rel="stylesheet" href="/stylesheets/style5.css">
+  <link rel="stylesheet" href="/stylesheets/mediaqueries1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
-    rel="stylesheet" />
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -43,20 +45,49 @@
           <li><a class="navs" href="/contactus.html">Contact Us</a></li>
         </ul>
         <div class="menubar">
-          <img src="/menu-bar5.png" id="menuIcon" alt="menu" />
+          <img src="/logos-icons/menu-bar5.png" id="menuIcon" alt="menu">
         </div>
       </nav>
     </header>
     <main>
-      <div>
-        <div class="flex">
-          <p class="typAnim1 source-code-pro-1a">NO MORE ONLINE FRAUDS</p>
+      <section class="header">
+        <div>
+          <h2>Some Resources</h2>
         </div>
-        <p>
-          This website is designed to help people learn about Cyber Awareness
-          and avoid cyber scams.
-        </p>
-      </div>
+        <div class="line2"></div>
+      </section>
+      <section class="resources">
+        <div class="row1 flex para2">
+          <div class="col1">
+            <a href="/PDF_files/Safe_Use_of_social_Media_Platform.pdf"><i style="font-size:24px"
+                class="fa">&#xf019;</i>Safe Use of social Media Platform</a>
+          </div>
+          <div class="col2">
+            <a href="/PDF_files/Job_Fraud.pdf"><i style="font-size:24px" class="fa">&#xf019;</i>Job Fraud</a>
+          </div>
+          <div class="col3">
+            <a href="/PDF_files/Matrimonial_fraud.pdf"><i style="font-size:24px" class="fa">&#xf019;</i>Matrimonial
+              fraud</a>
+          </div>
+          <div class="col4">
+            <a href="/PDF_files/Financial_Fraud.pdf"><i style="font-size:24px" class="fa">&#xf019;</i>Financial
+              Fraud</a>
+          </div>
+          <div class="col5">
+            <a href="/PDF_files/Final_English_Manual_Basic.pdf"><i style="font-size:24px" class="fa">&#xf019;</i>Cyber
+              Hygiene for cyber space (English)</a>
+          </div>
+          <div class="col6">
+            <a href="/PDF_files/Final_Hindi_Manual_Basic.pdf"><i style="font-size:24px" class="fa">&#xf019;</i>Cyber
+              Hygiene for cyber space (Hindi)</a>
+          </div>
+          <div class="col7">
+            <a href="/PDF_files/Cyber_Security_Awareness.pdf"><i style="font-size:24px" class="fa">&#xf019;</i>Cyber
+              Crime Awareness Booklet on Cyber Security
+              Awareness</a>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="flex footer">
@@ -68,12 +99,21 @@
   </div>
 
   <script>
-    let toggle1 = document.getElementById("menuIcon");
-    let navlinks1 = document.getElementById("navlinksID");
+    const toggle1 = document.getElementById("menuIcon");
+    const navlinks1 = document.getElementById("navlinksID");
 
-    toggle1.addEventListener("click", function () {
+    toggle1.addEventListener("click", () => {
       navlinks1.classList.toggle("active1");
     });
+
+    document.getElementById('btn1').onclick = function () {
+      window.open("https://www.ndtv.com/india-news/digital-arrest-scammers-stealing-peoples-savings-in-india-im-ruined-7514718", "_blank");
+    }
+
+    document.getElementById('btn2').onclick = function () {
+      window.open("https://www.latestly.com/socially/social-viral/online-scam-woman-tries-to-pay-mobile-bill-loses-life-savings-to-cyber-fraudsters-bank-refuses-responsibility-6708335.html", "_blank");
+    }
+
   </script>
 </body>
 

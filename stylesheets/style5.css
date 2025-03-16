@@ -1,0 +1,20 @@
+.header {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.resources .row1 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 100px;
+    margin-left: 750px;
+}
+
+a {
+    color: whitesmoke;
+}
+
+i {
+    margin-right: 20px;
+}

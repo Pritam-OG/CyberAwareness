@@ -4,17 +4,13 @@
     margin-right: 10px;
   }
 
-  .typAnim1 {}
-
-  /* .navs {
-    display: none;
-  } */
   .navlinks {
     position: absolute;
     align-items: center;
     flex-direction: column;
     background-color: #420080;
-    left: -100%;
+    border-radius: 25px;
+    left: -150%;
     top: 100%;
     width: 100%;
     padding: 10px 10px;
@@ -31,6 +27,11 @@
 
   #menuIcon {
     display: block;
+  }
+
+  .flex {
+    gap: 20%;
+    flex-direction: column;
   }
 }
 

@@ -9,7 +9,6 @@
   padding-left: 10px;
   background-color: #20204a;
   color: #e3d5d5;
-  margin: 2em 2.7em;
   font-size: 5vh;
   width: 22ch;
   animation: typing 2s steps(21), blink 0.5s step-end infinite alternate;
@@ -29,6 +28,15 @@
   50% {
     border-color: transparent;
   }
+}
+
+.wholeRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 100px;
 }
 
 .intro .row1 {
@@ -71,7 +79,7 @@
 
 .cyth1 .row1 .col1 {
   padding: 45px 0;
-  background-color: #33334e;
+  background-color: #00000079;
   color: whitesmoke;
   border-radius: 10px;
   width: 40%;
@@ -88,13 +96,14 @@
 }
 
 .paraBack1 {
-  background-color: #33334e;
+  background-color: #00000079;
   padding: 25px 25px;
   border-radius: 25px;
 }
 
 .para1 {
   padding: 10px 20px;
+  width: 85%;
 }
 
 .cythimg1 {
@@ -112,7 +121,7 @@
 
 .cyth2 .row1 .col1 {
   padding: 45px 0;
-  background-color: #33334e;
+  background-color: #00000079;
   color: whitesmoke;
   border-radius: 10px;
   width: 40%;
@@ -130,9 +139,9 @@
 
 .btn1 {
   margin-top: 20px;
-  border: 2px solid #33334e;
+  border: 2px solid #00000079;
   border-radius: 25px;
-  background-color: #33334e;
+  background-color: #00000079;
   color: whitesmoke;
   padding: 10px 10px;
   transition: all 0.3s ease-out;
@@ -142,8 +151,8 @@
 .btn1:hover {
   transform: translateX(10px);
   background-color: whitesmoke;
-  border-color: #33334e;
-  color: #33334e;
+  border-color: #00000079;
+  color: #00000079;
   cursor: pointer;
 
 }
