@@ -1,0 +1,53 @@
+h2 {
+    margin-top: 100px;
+}
+
+.form {
+    margin: 100px 650px;
+    font-size: 1.5em;
+}
+
+.form .row1 {
+    gap: 100px;
+}
+
+.ctn {
+    margin: 50px 0;
+}
+
+#name {
+    width: 250px;
+    height: 30px;
+}
+
+#email {
+    width: 250px;
+    height: 30px;
+}
+
+.btn1 {
+    margin-top: 20px;
+    border: 2px solid #33334e;
+    border-radius: 25px;
+    background-color: #33334e;
+    color: whitesmoke;
+    padding: 10px 10px;
+    margin-left: 250px;
+    font-size: 0.8em;
+    transition: all 0.3s ease-out;
+}
+
+.btn1:hover {
+    transform: translateY(-10px);
+    background-color: whitesmoke;
+    border-color: #33334e;
+    color: #33334e;
+    cursor: pointer;
+
+}
+
+p {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.5em;
+}

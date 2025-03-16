@@ -1,0 +1,177 @@
+.header {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.threats {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.threats .row1 {
+    justify-content: center;
+    gap: 50px;
+}
+
+.threats .row1 .col1 {
+    background-color: #ca2222;
+    padding: 50px 50px;
+    font-size: 3vh;
+    border-radius: 10px;
+    color: whitesmoke;
+    text-align: center;
+    transition: all 0.2s ease-out;
+}
+
+.threats .row1 .col2 {
+    background-color: #5e9333;
+    padding: 50px 50px;
+    font-size: 3vh;
+    border-radius: 10px;
+    color: whitesmoke;
+    transition: all 0.2s ease-out;
+}
+
+.threats .row1 .col3 {
+    background-color: #274ba5;
+    padding: 50px 50px;
+    font-size: 3vh;
+    border-radius: 10px;
+    color: whitesmoke;
+    transition: all 0.2s ease-out;
+}
+
+.threats .row2 {
+    margin-top: 50px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.threats .row2 .col1 {
+    background-color: #c67c27;
+    padding: 50px 50px;
+    font-size: 3vh;
+    border-radius: 10px;
+    color: whitesmoke;
+    text-align: center;
+    transition: all 0.2s ease-out;
+}
+
+.threats .row2 .col2 {
+    background-color: #6a21a5;
+    padding: 50px 50px;
+    font-size: 3vh;
+    border-radius: 10px;
+    color: whitesmoke;
+    transition: all 0.2s ease-out;
+}
+
+.threats .row2 .col3 {
+    background-color: #969d2a;
+    padding: 50px 50px;
+    font-size: 3vh;
+    border-radius: 10px;
+    color: whitesmoke;
+    transition: all 0.2s ease-out;
+}
+
+.threats .row3 {
+    margin-top: 50px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.threats .row3 .col1 {
+    background-color: #2b8b92;
+    padding: 50px 50px;
+    font-size: 3vh;
+    border-radius: 10px;
+    color: whitesmoke;
+    text-align: center;
+    transition: all 0.2s ease-out;
+}
+
+.threats .row3 .col2 {
+    background-color: #339345;
+    padding: 50px 50px;
+    font-size: 3vh;
+    border-radius: 10px;
+    color: whitesmoke;
+    transition: all 0.2s ease-out;
+}
+
+.threats .row3 .col3 {
+    background-color: #792997;
+    padding: 50px 50px;
+    font-size: 3vh;
+    border-radius: 10px;
+    color: whitesmoke;
+    transition: all 0.2s ease-out;
+}
+
+.threats .row4 {
+    margin-top: 50px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.threats .row4 .col1 {
+    background-color: #caa322;
+    padding: 50px 50px;
+    font-size: 3vh;
+    border-radius: 10px;
+    color: whitesmoke;
+    text-align: center;
+    transition: all 0.2s ease-out;
+}
+
+.threats .row1 .col1:hover {
+    font-size: 4vh;
+    padding: 60px 60px;
+}
+
+.threats .row1 .col2:hover {
+    font-size: 4vh;
+    padding: 60px 60px;
+}
+
+.threats .row1 .col3:hover {
+    font-size: 4vh;
+    padding: 60px 60px;
+}
+
+.threats .row2 .col1:hover {
+    font-size: 4vh;
+    padding: 60px 60px;
+}
+
+.threats .row2 .col2:hover {
+    font-size: 4vh;
+    padding: 60px 60px;
+}
+
+.threats .row2 .col3:hover {
+    font-size: 4vh;
+    padding: 60px 60px;
+}
+
+.threats .row3 .col1:hover {
+    font-size: 4vh;
+    padding: 60px 60px;
+}
+
+.threats .row3 .col2:hover {
+    font-size: 4vh;
+    padding: 60px 60px;
+}
+
+.threats .row3 .col3:hover {
+    font-size: 4vh;
+    padding: 60px 60px;
+}
+
+.threats .row4 .col1:hover {
+    font-size: 4vh;
+    padding: 60px 60px;
+}
