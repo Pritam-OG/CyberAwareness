@@ -7,7 +7,7 @@
 html,
 body {
     padding: 20px 0;
-    background-image: radial-gradient(navy, blueviolet);
+    background-image: radial-gradient(#000fe2, #006e8f, blueviolet);
     background-repeat: no-repeat;
 }
 
@@ -22,8 +22,13 @@ a {
     font-size: 3vh;
 }
 
+.major-mono-display-regular {
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
 h1 {
-    font-size: 50px;
     text-align: center;
     margin: 50px 50px;
 }
@@ -42,14 +47,14 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #420080;
+    background-color: #00000045;
     position: relative;
     height: 70px;
 }
 
 nav ul {
     display: flex;
-    gap: 30px;
+    gap: 10px;
 }
 
 nav ul li {
@@ -60,6 +65,13 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-out;
+}
+
+nav ul li a:hover {
+    background-color: #00000079;
 }
 
 .menubar {
@@ -74,13 +86,9 @@ nav ul li a {
     height: 30px;
 }
 
-nav ul li a:hover {
-    border-bottom: 2px solid white;
-}
 
 main {
-    /* background-color: #5f5f9f; */
-    color: whitesmoke;
+    color: white;
     padding: 20px 20px;
     padding-bottom: 200px;
 }
@@ -120,8 +128,8 @@ footer {
 }
 
 .line3 {
-    margin: 20px 880px;
-    padding: 3px 0;
+    margin: 10px 880px;
+    padding: 3px 60px;
     border-radius: 25px;
     background-color: #7bff00;
     text-align: center;
@@ -129,7 +137,15 @@ footer {
 
 .line4 {
     margin: 10px auto;
-    padding: 1px 60px;
+    padding: 1px 40px;
+    border-radius: 25px;
+    background-color: #7bff00;
+    text-align: center;
+}
+
+.line5 {
+    margin: 10px 500px;
+    padding: 3px 150px;
     border-radius: 25px;
     background-color: #7bff00;
     text-align: center;
@@ -137,6 +153,7 @@ footer {
 
 .para2 {
     font-size: 2.5vh;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .para-div {

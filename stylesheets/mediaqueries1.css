@@ -30,7 +30,7 @@
   }
 
   .flex {
-    gap: 20%;
+    gap: 50%;
     flex-direction: column;
   }
 }

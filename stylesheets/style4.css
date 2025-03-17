@@ -2,12 +2,25 @@
     margin: 100px 0;
 }
 
+.image1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
+}
+
+.image1 img {
+    width: 30vw;
+}
+
 .bp1 {
     margin-top: 200px;
 }
 
 .wholeRow {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 100px;
 }
@@ -19,29 +32,18 @@
     gap: 50px;
 }
 
-.bp1 .row1 .col2 {
-    width: 40vw;
+.headBack {
+    padding: 15px 25px;
+}
+
+.bp1 .wholeRow .row1 .col2 {
+    width: 70vw;
+    padding: 50px 50px;
 }
 
 .bp1 .row1 .col2 ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-.bp1 .row2 {
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 50px;
-}
-
-.bp1 .row2 .col2 {
-    width: 40vw;
-}
-
-.bp1 .row2 .col2 ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    padding-left: 50px;
 }

@@ -20,11 +20,8 @@
   <link rel="stylesheet" href="/stylesheets/mediaqueries1.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee&family=Bungee+Shade&family=Faster+One&family=Major+Mono+Display&family=Monoton&family=Playwrite+CU:wght@100..400&family=Press+Start+2P&family=Rampart+One&family=Rubik+Dirt&family=Sixtyfour+Convergence&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Titan+One&display=swap"
     rel="stylesheet">
 </head>
 
@@ -32,13 +29,13 @@
   <div class="body">
     <header>
       <nav>
-        <div class="logo">
-          <h1>Cyber Awareness</h1>
+        <div class="logo major-mono-display-regular">
+          <h1>CYBER AWARENESS</h1>
         </div>
         <ul class="navlinks" id="navlinksID">
           <li><a class="padright1 navs" href="/">Home</a></li>
           <li><a class="padright1 navs" href="/about.html">About</a></li>
-          <li><a class="padright1 navs" href="/threats&risks.html">Threats & Risks</a></li>
+          <li><a class="padright1 navs" href="/threats-risks.html">Threats & Risks</a></li>
           <li><a class="padright1 navs" href="/bestpractices.html">Best Practices</a></li>
           <li><a class="padright1 navs" href="/resources.html">Resources</a></li>
           <li><a class="navs" href="/contactus.html">Contact Us</a></li>
@@ -54,12 +51,15 @@
           <h2>Best Practices</h2>
         </div>
         <div class="line3"></div>
+        <div class="image1">
+          <img src="/logos-icons/cyber_helpline.jpeg" alt="cyber helpline">
+        </div>
       </section>
       <section class="bp1">
         <div class="wholeRow">
           <div class="row1 flex">
             <div class="col1">
-              <h3 class="headBack">General Computer Usage</h3>
+              <h3 class="headBack h3">General Computer Usage</h3>
             </div>
             <div class="col2 paraBack para2">
               <ul type="square">
@@ -91,7 +91,7 @@
               </ul>
             </div>
           </div>
-          <div class="row2 flex">
+          <div class="row1 flex">
             <div class="col1">
               <h3 class="headBack">General Internet Browsing</h3>
             </div>
@@ -137,13 +137,333 @@
               </ul>
             </div>
           </div>
+          <div class="row1 flex">
+            <div class="col1">
+              <h3 class="headBack">Malware Defense</h3>
+            </div>
+            <div class="col2 paraBack para2">
+              <ul type="square">
+                <li>Always set automatic updates for Operating System, Anti-Virus and Applications</li>
+                <li>Configure web browser to block pop-ups, disable unnecessary plugins and enable secure browsing
+                  features.</li>
+                <li>Enable hidden file & system file view to find any unusual or
+                  hidden files.</li>
+                <li>Turn off auto play (Start Run type gpedit.msc Computer Configurations Administrative Templates ->
+                  Windows
+                  Components -> Select "AutoPlay Policies -> Double Glick at "Turn off Auto play" -> Select Enabled ->
+                  Set "Turn
+                  off Auto play on:" to "All drives").</li>
+                <li>Configure the following parameter in the registry of PCs running Windows 8 (and above) and all the
+                  servers
+                  using Windows 2012, to prohibit storing. unencrypted passwords in RAM (which are usually leveraged by
+                  Mimikatz).
+                  HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Security Providers/WDigest/UseLogonCredential=0
+                </li>
+                <li>Type %temp% in "Windows Run" and delete all entries after opening any suspicious attachments.</li>
+                <li>Open Command Prompt and type netstat -na. Checkout Foreign established connection with IP addresses
+                  and its
+                  ownership.</li>
+                <li>Type "msconfig" in "Windows Run" and check for any unusual executable running automatically.</li>
+                <li>Check Network adapter for data/packets received and sent. If the outgoing/sent is unusually high,
+                  then it is
+                  very likely that the system is compromised.</li>
+                <li>Type "ipconfig /displaydns" in command prompt and look out for any URLs which you have not accessed
+                  recently.
+                </li>
+                <li>Always be cautious while opening attachments even from the known sources. Try to use non-native
+                  applications
+                  for opening attachments (as an example, use WordPad to open a word document).</li>
+                <li>When in doubt, better to format the Internet connected computer instead of performing some "patch
+                  works".</li>
+                <li>Prohibit any remote logon to the system (RDP, SMB, RPC) for local administrators.</li>
+                <li>Check regularly if any unusual applications running from %appdata%, %tmp%, %temp%, %localappdata%,
+                  %programdata% directories.</li>
+                <li>Isolate hosts in the same VLAN, so that one workstation would not be able to gain access to another
+                  one on
+                  network levels L2/L3, and could access shared network segments (printers, servers, etc.)</li>
+                <li>Deploy web and email filters on the network. Configure these devices to scan for known bad domains,
+                  sources as
+                  well as addresses and block these before receiving and downloading messages.</li>
+                <li>Disable file and printer sharing services. If these services are required, use. strong passwords or
+                  Active
+                  Directory authentication.</li>
+                <li>Disable or prevent ActiveX controls in Microsoft Office Word Document from running without
+                  prompting.</li>
+                <li>Disable Macros in Microsoft office documents (doc/docx, xls/xlsx, ppt/pptx and mdb/accdb). By
+                  default,
+                  Microsoft products come with VBS Macro disabled.</li>
+                <li>Disable Java Scripts or similar scripting functions in Adobe Acrobat Reader for PDF files.</li>
+                <li>Configure built in "File Protection Setting" feature in Microsoft Office.</li>
+                <li>Configure built in feature for "Protected View" settings in Microsoft Office to open the Microsoft
+                  Office word
+                  documents in Protected view.</li>
+                <li>Check for unrecognized tasks being registered in task scheduler using "Schtasks /Query /FO LIST /V"
+                  from
+                  command prompt.</li>
+                <li>Use Tools that can analyze for malicious code execution.</li>
+                <li>Avoid internet access through administrator account. Instead, use a limited user account, which
+                  limits the
+                  impact of malware that tries to gain. administrative access.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row1 flex">
+            <div class="col1">
+              <h3 class="headBack">USB Storage Device</h3>
+            </div>
+            <div class="col2 paraBack para2">
+              <ul type="square">
+                <li>Use only authorized USB storage devices in official computers.</li>
+                <li>Records of USB storage devices should be maintained</li>
+                <li>Damaged/faulty Removable Information Storage Media (RISM) should never be handed over to
+                  outsiders/manufacturer for repair.</li>
+                <li>Information should be stored on removable media with due authorization only.</li>
+                <li>All media must be stored in a safe and secure environment.</li>
+                <li>All media must be handled with care and it must not be kept near magnetic material or exposed to
+                  extreme heat
+                  or pollution.</li>
+                <li>The computers should be enabled with "Show hidden file and folders" option and "Hide protected
+                  operating
+                  system files" should be disabled to view hidden malicious files in USB storage devices.</li>
+                <li>Make sure there are no hidden files or folders present in the Media.</li>
+                <li>Autorun/autoplay feature should be disabled in all the computers.</li>
+                <li>Avoid Baiting (someone gives you a USB drive or other electronic media that is preloaded with
+                  malware in the
+                  hope you will use the device and enable them to hack your computer). Do not use any electronic storage
+                  device
+                  unless you know its origin is legitimate and safe.</li>
+                <li>Scan all electronic media for Malware before use.</li>
+                <li>Use encryption tools to secure sensitive data on the USB device, making it inaccessible without the
+                  proper
+                  decryption key.</li>
+                <li>Enable write protection on the USB device to prevent any changes or additions to the data stored on
+                  the
+                  device..</li>
+                <li>Use secure ejection while disconnecting USB devices to prevent data corruption.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row1 flex">
+            <div class="col1">
+              <h3 class="headBack">Password</h3>
+            </div>
+            <div class="col2 paraBack para2">
+              <ul type="square">
+                <li>Passwords must be changed at regular intervals.</li>
+                <li>Always use different passwords for different accounts.</li>
+                <li>Do not share passwords with anyone.</li>
+                <li>Passwords should never be written down or stored on-line without encryption.</li>
+                <li>Do not reveal a password in email, chat, or other electronic communication.</li>
+                <li>Do not reveal a password on questionnaires or security forms.</li>
+                <li>Always decline the use of the "Remember Password" feature of applications.</li>
+                <li>All users should be aware of how to select strong passwords.</li>
+                <li>Strong passwords should contain at least thirteen alphanumeric characters (except in the case of
+                  BIOS, if the
+                  same is not possible) in combination of lower case characters, upper case characters, numbers and
+                  "Special"
+                  characters (e.g. @#$%^&*()_+|--=\'{)[]:";<>/ etc.).</li>
+                <li>Weak passwords have the following characteristics:
+
+                  The password contains less than thirteen characters.
+
+                  The password is a word found in a dictionary.
+
+                  The password is a common usage word such as: Names of family, pets, friends, colleagues, Movies /
+                  Novels /
+                  Comics characters, etc.
+
+                  Computer terms and names, commands, sites, companies, hardware, software.
+
+                  Birthdays and other personal information such as addresses and phone numbers.
+
+                  Word or number patterns like qwerty, asdfg, zxcvb, 12345 etc.</li>
+                <li>Password history should be enforced wherever possible to ensure that the users are forced to select
+                  different
+                  passwords with a user account.</li>
+                <li>Maximum password age should be configured to enforce users to change their password on its expiry.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row1 flex">
+            <div class="col1">
+              <h3 class="headBack">Social Engineering</h3>
+            </div>
+            <div class="col2 paraBack para2">
+              <ul type="square">
+                <li>Social Engineering is an approach to gain access to information through misrepresentation. It is the
+                  conscious
+                  manipulation of people to obtain information without realizing that a security breach is occurring. It
+                  may take
+                  the form of impersonation via telephone or in person and through email.</li>
+                <li>Some emails entice the recipient into opening an attachment that activates a virus or malicious
+                  program into
+                  recipient's computer.</li>
+                <li>Be suspicious of unsolicited phone calls, visits, or email messages from individuals asking about
+                  employees or
+                  other internal information. If an unknown individual claims to be from a legitimate organization, try
+                  to verify
+                  his/her identity directly with the company.</li>
+                <li>Do not provide personal/financial/organizational information, unless you are certain of a person's
+                  authority
+                  to have the information.</li>
+                <li>Do not send information over the Internet before checking a websites security. Pay attention to the
+                  URL of a
+                  website. Malicious websites may look identical to a legitimate site, but the URL may use a variation
+                  in spelling
+                  or a different domain (e.g. .com, .in, .net etc.).</li>
+                <li>If you are unsure whether an email request is legitimate, try to verify it by contacting the company
+                  directly.
+                  Do not use contact information provided on a website connected to the request; instead, check previous
+                  statements for contact information.</li>
+                <li>Install and maintain anti-virus software, firewalls, and email filters to reduce unwanted/malicious
+                  traffic.
+                </li>
+                <li>Take advantage of any anti-phishing features offered by your email service provider and web browser.
+                </li>
+                <li>Immediately change any passwords you might have revealed. If you have used the same password for
+                  multiple
+                  resources, make sure to change it for each account, and do not use that password in future.</li>
+                <li>Conduct regular social engineering tests or simulations within your organization to identify
+                  vulnerabilities
+                  and address them proactively.</li>
+                <li>Define clear procedures for handling requests for sensitive information or actions, including
+                  escalation paths
+                  for suspicious cases.</li>
+                <li>Create an environment where individuals can feel comfortable reporting any suspicious activity,
+                  whether online
+                  or offline.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row1 flex">
+            <div class="col1">
+              <h3 class="headBack">Best Practices for Mobile Phones / Tabs</h3>
+            </div>
+            <div class="col2 paraBack para2">
+              <ul type="square">
+                <li>Do not store any classified/sensitive data (text/video/ photograph) in the device</li>
+                <li>Before downloading any App, same should be checked for its reputation/review. Read vendors' privacy
+                  policies
+                  before downloading Apps and App permission should be reviewed closely.</li>
+                <li>Disable installing of third party Apps from unknown sources.</li>
+                <li>Disable background data for Apps which are not used frequently</li>
+                <li>Avoid use of wallet aggregator Apps, which stores/links other e-wallets and banking Apps.</li>
+                <li>Auto start, data usage for each App and App permission should be controlled through the security
+                  features
+                  available (depends on OS and make of the phone).</li>
+                <li>Review the default privacy settings of smart phone Apps or services and, if needed, change the
+                  settings; e.g.
+                  settings about whether or not to attach location data to images, to social network posts, etc.</li>
+                <li>Relevant anti-virus software should be installed in the smart device and same be updated regularly.
+                </li>
+                <li>Turn off GPS location services when not needed.</li>
+                <li>Turn off GPS location services when not needed.</li>
+                <li>Disable/remove the Apps which are not needed</li>
+                <li>When device is idle, it should get locked and require a password/PIN or swipe pattern to unlock it.
+                  Set
+                  relatively shorter screen lock time.</li>
+                <li>Take back-up of data (contacts, personal photos, etc.) on external media</li>
+                <li>Do not reply or click on link on SMS or messages or photos sent by strangers.</li>
+                <li>Be cautious while using public Wi-Fi. Avoid performing financial transactions over public Wi-Fi.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row1 flex">
+            <div class="col1">
+              <h3 class="headBack">Organization Level Security Controls</h3>
+            </div>
+            <div class="col2 paraBack para2">
+              <ul type="square">
+                <li>Enforce Multi-Factor Authentication (MFA) to prevent phishing attacks that steal email credentials.
+                  In case MS
+                  Office 365 is being used MFA should be enabled. MFA should also be enabled for Windows logins which
+                  would be
+                  effective against brute force attacks particularly using Remote Desktop Protocol (RDP).</li>
+                <li>Enable network segregation (partitioning of a network to keep critical parts of the infrastructure
+                  away from
+                  the internet and from the less secure internal networks) to contain malicious activity and prevent
+                  successful
+                  propagation of the malware. This can prevent direct attacks on systems that should not be internet
+                  facing.
+                  Effective monitoring of log-ins and auditing of sensitive data can be put in place to ensure that the
+                  data is
+                  tracked.</li>
+                <li>Install Anti-Phishing software that can run on the mail server and examine emails for any hyperlinks
+                  containing phishing websites/malwares. This can prevent credential loss and malicious code execution
+                  through
+                  phishing.</li>
+                <li>Configure Mail Server to block the attachment of file types exe, pif, tmp, url, vb, vbe, scr, reg,
+                  cer, pst,
+                  cmd, com, bat, dll, dat, hta, js and wsf.</li>
+                <li>Ensure Patch management (software running on the network is patched and up-to-date) is done on
+                  regular basis
+                  especially on servers where unpatched remote desktop software if present could lead to cyber-attacks.
+                  Else
+                  remove unused or unpatched software from computers, particularly remote desktop software. Close ports
+                  of the
+                  systems that need not be connected to the internet.</li>
+                <li>Enforce Password policy in the organization to ensure that a minimum strength of password is
+                  complied with
+                  across the network. This would help in preventing brute force attacks and prevent attackers from
+                  taking
+                  advantage of default passwords.</li>
+                <li>Periodical audit of IT systems to be carried out.</li>
+                <li>Legacy computers (particularly internet facing servers) to be taken off so as to reduce attack
+                  surface.</li>
+                <li>Educate staff on phishing attacks and email compromise frauds.</li>
+                <li>Use Firewall Access Control Lists to restrict direct network access to user machines. Ensure that
+                  only
+                  approved devices are allowed to connect to them.</li>
+                <li>Perform regular backups to allow quick restoration of impacted devices. Ensure backups are kept
+                  offline and
+                  make sure there is a recovery plan in place.</li>
+                <li>To secure the web application, conduct regular Vulnerability Assessment and Penetration Testing
+                  (VAPT) of the
+                  entire Information and Communications Technology (ICT) infrastructure by competent auditors and
+                  testers</li>
+                <li>Secure configuration: Configure systems, networks and applications securely, based on industry best
+                  practices
+                  and guidelines.</li>
+                <li>Vendor Security: Assess the cybersecurity practices of third-party vendors/partners, who have access
+                  to the
+                  organization's network.</li>
+                <li>Establish comprehensive Disaster Recovery plan to ensure business continuity in case of breach or
+                  system
+                  failure.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row1 flex">
+            <div class="col1">
+              <h3 class="headBack">Email Security Practices</h3>
+            </div>
+            <div class="col2 paraBack para2">
+              <ul type="square">
+                <li>Do not open/reply email links (hyperlinks/web links/URLs mentioned in the body of such mails)
+                  claiming to
+                  offer anti-spyware software. The links may serve the opposite purpose and actually install the spyware
+                  it claims
+                  to be eliminating.</li>
+                <li>Scan mail attachments before downloading/opening.</li>
+                <li>Use two factor authentication wherever possible.</li>
+                <li>Use different email accounts for personal and professional purposes.</li>
+                <li>Periodically check last log-in activity for any unauthorized access.</li>
+                <li>Change passwords of all online accounts (emails and others) from another secure computer, if any
+                  suspicious
+                  activities like email access from foreign IP addresses, etc. are noticed.</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
     </main>
     <footer>
       <div class="flex footer">
-        <span>Email ID: ptarafdar511@gmail.com</span>
+        <span>Cyber Helpline: 1930</span>
         <div class="line4"></div>
+        <span>Email ID: ptarafdar511@gmail.com</span>
         <span>Copyright &copy; 2025 cyberawarenesshub.netlify.app</span>
       </div>
     </footer>
