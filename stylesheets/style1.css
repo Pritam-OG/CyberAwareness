@@ -5,7 +5,7 @@
 }
 
 .typAnim1 {
-  margin-left: 100px;
+  margin-left: 50px;
   padding-left: 10px;
   background-color: #20204a;
   color: #e3d5d5;
@@ -36,7 +36,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   margin-top: 100px;
-  gap: 100px;
+  gap: 50px;
 }
 
 .intro .row1 {
@@ -75,11 +75,11 @@
 }
 
 .cyth1 .row1 .col1 {
-  padding: 45px 0;
+  padding: 20px 0;
   background-color: #00000079;
   color: whitesmoke;
   border-radius: 10px;
-  width: 40%;
+  width: 30%;
   max-width: 500px;
   display: flex;
   flex-direction: column;
@@ -100,7 +100,7 @@
 
 .para1 {
   padding: 10px 20px;
-  width: 85%;
+  width: 95%;
 }
 
 .cythimg1 {
@@ -117,11 +117,11 @@
 }
 
 .cyth2 .row1 .col1 {
-  padding: 45px 0;
+  padding: 20px 0;
   background-color: #00000079;
   color: whitesmoke;
   border-radius: 10px;
-  width: 40%;
+  width: 30%;
   max-width: 500px;
   display: flex;
   flex-direction: column;
@@ -170,6 +170,6 @@
 }
 
 .h3 {
-  margin: 0 255px;
+  margin: 0 180px;
   margin-bottom: 50px;
 }

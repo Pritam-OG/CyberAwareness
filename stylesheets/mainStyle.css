@@ -8,7 +8,6 @@ html,
 body {
     padding: 20px 0;
     background-image: radial-gradient(#000fe2, #006e8f, blueviolet);
-    background-repeat: no-repeat;
 }
 
 
@@ -34,7 +33,7 @@ h1 {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 5vh;
     text-align: center;
 
 }
@@ -42,11 +41,11 @@ h2 {
 nav {
     border: 1px solid #b3acac;
     border-radius: 25px;
-    margin: 0 100px;
-    padding: 50px 50px;
+    margin: 0 50px;
+    padding: 50px 10px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     background-color: #00000045;
     position: relative;
     height: 70px;
@@ -112,27 +111,27 @@ footer {
 }
 
 .line {
-    margin: 20px 800px;
-    padding: 3px 0;
+    text-align: center;
+    margin: 20px 660px;
+    padding: 3px 10px;
     border-radius: 25px;
     background-color: #7bff00;
-    text-align: center;
 }
 
 .line2 {
-    margin: 20px 850px;
-    padding: 3px 0;
+    margin: 20px 690px;
+    padding: 3px 10px;
     border-radius: 25px;
     background-color: #7bff00;
     text-align: center;
 }
 
 .line3 {
-    margin: 10px 880px;
-    padding: 3px 60px;
+    text-align: center;
+    margin: 10px 100px;
+    padding: 3px 50px;
     border-radius: 25px;
     background-color: #7bff00;
-    text-align: center;
 }
 
 .line4 {
@@ -144,11 +143,19 @@ footer {
 }
 
 .line5 {
-    margin: 10px 500px;
-    padding: 3px 150px;
+    margin: 10px 130px;
+    padding: 3px 10px;
     border-radius: 25px;
     background-color: #7bff00;
     text-align: center;
+}
+
+.line6 {
+    text-align: center;
+    margin: 10px 700px;
+    padding: 3px 10px;
+    border-radius: 25px;
+    background-color: #7bff00;
 }
 
 .para2 {
