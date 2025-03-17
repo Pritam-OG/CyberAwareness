@@ -12,6 +12,13 @@ h2 {
     gap: 100px;
 }
 
+.wholeRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .ctn {
     margin: 50px 0;
 }
@@ -33,7 +40,6 @@ h2 {
     background-color: #00000079;
     color: whitesmoke;
     padding: 15px 20px;
-    margin-left: 250px;
     font-size: 1em;
     font-family: 'Times New Roman', Times, serif;
     transition: all 0.3s ease-out;
@@ -42,7 +48,6 @@ h2 {
 .btn1:hover {
     transform: translateY(-10px);
     background-color: whitesmoke;
-    /* border-color: #000000; */
     color: #000000;
     cursor: pointer;
 

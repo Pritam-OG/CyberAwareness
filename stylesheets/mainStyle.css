@@ -135,6 +135,14 @@ footer {
     text-align: center;
 }
 
+.lineC {
+    margin: 10px 890px;
+    padding: 3px 10px;
+    border-radius: 25px;
+    background-color: #7bff00;
+    text-align: center;
+}
+
 .line4 {
     margin: 10px auto;
     padding: 1px 40px;

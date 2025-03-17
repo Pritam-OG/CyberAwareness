@@ -47,26 +47,28 @@
         </header>
         <main>
             <h2>Contact Us</h2>
-            <div class="line3"></div>
+            <div class="lineC"></div>
             <p>Feel free to ask questions or report issues</p>
             <section class="form">
                 <form name="contact" netlify>
-                    <div class="row1 flex">
-                        <div class="ctn">
-                            <label for="name">Name:</label><br>
-                            <input type="text" id="name" name="name" required>
+                    <div class="wholeRow">
+                        <div class="row1 flex">
+                            <div class="ctn">
+                                <label for="name">Name:</label><br>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="ctn">
+                                <label for="email">Email:</label><br>
+                                <input type="email" id="email" name="email" required>
+                            </div>
                         </div>
                         <div class="ctn">
-                            <label for="email">Email:</label><br>
-                            <input type="email" id="email" name="email" required>
+                            <label for="message">Message:</label><br>
+                            <textarea id="message" name="message" rows="6" cols="73" required></textarea>
                         </div>
-                    </div>
-                    <div class="ctn">
-                        <label for="message">Message:</label><br>
-                        <textarea id="message" name="message" rows="6" cols="73" required></textarea>
-                    </div>
 
-                    <button class="btn1" type="submit" value="submit">Send</button>
+                        <button class="btn1" type="submit" value="submit">Send</button>
+                    </div>
                 </form>
             </section>
         </main>
