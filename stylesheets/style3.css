@@ -92,40 +92,6 @@
     transition: all 0.2s ease-out;
 }
 
-.threats .row3 .col2 {
-    background-color: #339345;
-    padding: 50px 50px;
-    font-size: 3vh;
-    border-radius: 10px;
-    color: whitesmoke;
-    transition: all 0.2s ease-out;
-}
-
-.threats .row3 .col3 {
-    background-color: #792997;
-    padding: 50px 50px;
-    font-size: 3vh;
-    border-radius: 10px;
-    color: whitesmoke;
-    transition: all 0.2s ease-out;
-}
-
-.threats .row4 {
-    margin-top: 50px;
-    justify-content: center;
-    gap: 50px;
-}
-
-.threats .row4 .col1 {
-    background-color: #caa322;
-    padding: 50px 50px;
-    font-size: 3vh;
-    border-radius: 10px;
-    color: whitesmoke;
-    text-align: center;
-    transition: all 0.2s ease-out;
-}
-
 .threats .row1 .col1:hover {
     font-size: 4vh;
     padding: 60px 60px;
